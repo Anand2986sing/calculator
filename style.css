@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.text {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style:oblique;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    
+}
+body{
+    background-color: rgb(28, 26, 26);
+}
+
+.button{
+    height: 5px;
+    width: 5px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 3px solid rgb(23, 23, 23);
+    border-radius: 9px;
+    cursor: pointer;
+}
+.row-input{
+    width: 150px;
+    height: 15px;
+    border:2px solid black;
+    margin:0;
+    padding:2px;
+    border-radius:9px;
+}
+.extr-Pop{
+    background-color: rgb(68, 17, 125);
+    display: inline;
+}
+
+
+.button-41 {
+  padding: 19px 28px;
+  border: 0;
+  font-size: 16px;
+  transition: all 150ms ease-in-out;
+
+  border-radius: 14px;
+  font-weight: 600;
+
+  color: #fff;
+  background-color: transparent;
+  background-image: radial-gradient(50% 115% at 50% -5%, rgba(255, 255, 255, 0.11) 0%, transparent 100%);
+  box-shadow: inset 0 0px 10px 0px rgba(255, 255, 255, 0.14), inset 0px 5px 10px 0px rgba(255, 255, 255, 0.11), inset 0px 2px 5px 0px rgba(255, 255, 255, 0.4), inset 0px 3px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button-41:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+
+
+
+.button-40 {
+  --glow-color: rgb(39, 37, 42);
+  --glow-spread-color: rgba(182, 151, 211, 0.781);
+  --enhanced-glow-color: rgb(231, 206, 255);
+  --btn-color: rgb(32, 26, 37);
+  border: .25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+  text-shadow: 0 0 .5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+  }
+
+.button-40::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: .7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.button-40:hover {
+  color: var(--btn-color);
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+  color: rgb(207, 43, 43);
+}
+
+
+
+.button-32 {
+    padding: 19px 28px;
+  color: #fff;
+  border: 0;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 150ms ease-in-out;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  border-radius: 10px;
+  background-color: #111111;
+  background-image: radial-gradient(76% 151% at 52% -52%, rgba(255, 255, 255, 0.23) 0%, transparent 100%);
+}
+
+.button-32:hover {
+  filter: brightness(1.1);
+}

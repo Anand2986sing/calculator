@@ -1,0 +1,31 @@
+.text-center{
+    text-align: center;
+}
+.bg-red{
+    background-color: red;
+}
+
+.flex{
+    display: flex;
+}
+
+.pd-button{
+    padding: 5px;
+}
+
+.box-prop{
+   
+    display: flexbox;
+    margin: 600px;
+    margin-top: 10px;
+    padding: 25px;
+}
+
+.text-white{
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
+
